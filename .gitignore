@@ -9,3 +9,4 @@ provision-post.sh
 provision-pre.sh
 site.yml
 vendor
+wordpress-theme-test-date-ja.xml

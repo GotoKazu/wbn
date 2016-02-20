@@ -23,13 +23,12 @@
 </head>
 
 <body <?php body_class(); ?>>
-<p>文字を入れてみる。</p>
-
 <div id="page" class="site">
 	<div class="site-inner">
 		<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentysixteen' ); ?></a>
 
 		<header id="masthead" class="site-header" role="banner">
+			<p>文字を追加してみる</p>
 			<div class="site-header-main">
 				<div class="site-branding">
 					<?php if ( is_front_page() && is_home() ) : ?>
